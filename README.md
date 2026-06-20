@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FYP Book-2 Ch20: Vector Autoregression
 
 ## Student attribution
@@ -37,3 +38,7 @@ This (a) runs the offline pipeline if `outputs/backend/dashboard.json` is missin
 Scaffolded; pipeline + live prediction implementation pending. See top-level
 `FYP_BOOK2_PORTFOLIO.md` for the wave schedule.
 Supervisor Dr. Mustafa Hameed
+=======
+# Visualization-of-Collaborative-Learning-Networks-Using-igraph
+This project analyzes and visualizes collaborative learning networks using Python’s iGraph library. It models learners as nodes and their interactions as edges to reveal collaboration patterns, key participants, and community structures, helping improve teamwork and learning effectiveness through visual insights.
+>>>>>>> 88edd1b52bd943a7dd0ec7ecf836cd639c861e57
