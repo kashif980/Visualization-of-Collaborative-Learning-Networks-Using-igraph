@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vector Autoregression | Book 2 Ch20</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="vendor/project-shell.css">
+    <script src="vendor/plotly-2.35.2.min.js"></script>
+    <script src="vendor/project-shell.js" defer></script>
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <div>
+                <p class="eyebrow">Advanced LA Methods FYP &middot; Book 2 / Chapter 20</p>
+                <h1>Vector Autoregression</h1>
+                <p class="hero-copy" id="heroCopy">
+                    Live-prediction studio built from chapter 20 of the book.
+                </p>
+            </div>
+            <div class="hero-meta">
+                <div class="meta-chip">Backend: FastAPI :9620</div>
+                <div class="meta-chip">Frontend: :8620</div>
+                <div class="meta-chip" id="generatedAt">Waiting for backend output</div>
+            </div>
+        </header>
+
+        <main>
+            <section class="panel manual-panel">
+                <div class="panel-heading">
+                    <h2>Manual Prediction</h2>
+                    <p>Submit input to the FastAPI server and view the live prediction.</p>
+                </div>
+                <div class="manual-layout">
+                    <form id="manualForm" class="input-grid"></form>
+                    <div class="manual-output">
+                        <div class="result-card" id="manualSummary">Awaiting input.</div>
+                        <div class="chart compact-chart" id="manualChart"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel status-panel">
+                <h2>Backend Status</h2>
+                <p id="statusMessage">Loading dashboard.json...</p>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

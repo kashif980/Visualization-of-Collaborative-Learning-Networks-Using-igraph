@@ -1,0 +1,128 @@
+{
+  "project": {
+    "title": "Book-2 Ch20 Vector Autoregression",
+    "source_chapter": "book2 ch20-var",
+    "generated_at": "2026-05-18 21:54:37",
+    "person": "Alice"
+  },
+  "overview": {
+    "rows": 156,
+    "lag": 1,
+    "variables": [
+      "efficacy",
+      "value",
+      "planning",
+      "monitoring",
+      "effort"
+    ],
+    "rmse_per_var": {
+      "efficacy": 20.4317,
+      "value": 19.6651,
+      "planning": 22.8042,
+      "monitoring": 18.7065,
+      "effort": 20.8638
+    }
+  },
+  "coefficients": [
+    [
+      0.0607,
+      0.0992,
+      -0.0098,
+      0.1094,
+      -0.057
+    ],
+    [
+      -0.0542,
+      0.0398,
+      0.1088,
+      -0.0498,
+      -0.1657
+    ],
+    [
+      0.1617,
+      0.1113,
+      -0.1167,
+      0.0989,
+      0.0024
+    ],
+    [
+      0.0612,
+      0.0129,
+      -0.0268,
+      -0.0289,
+      0.0025
+    ],
+    [
+      -0.0727,
+      0.0378,
+      -0.0643,
+      0.1123,
+      0.0637
+    ]
+  ],
+  "intercept": [
+    22.8481,
+    86.3409,
+    29.6821,
+    61.4776,
+    51.6216
+  ],
+  "manual_demo": {
+    "input_type": "tabular",
+    "feature_order": [
+      "efficacy",
+      "value",
+      "planning",
+      "monitoring",
+      "effort"
+    ],
+    "field_schema": [
+      {
+        "name": "efficacy",
+        "label": "efficacy",
+        "default": 30.303,
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.01,
+        "description": "Alice's observed range: 0.00 to 100.00"
+      },
+      {
+        "name": "value",
+        "label": "value",
+        "default": 81.818,
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.01,
+        "description": "Alice's observed range: 0.00 to 100.00"
+      },
+      {
+        "name": "planning",
+        "label": "planning",
+        "default": 23.81,
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.01,
+        "description": "Alice's observed range: 0.00 to 100.00"
+      },
+      {
+        "name": "monitoring",
+        "label": "monitoring",
+        "default": 60.784,
+        "min": 0.0,
+        "max": 92.157,
+        "step": 0.01,
+        "description": "Alice's observed range: 0.00 to 92.16"
+      },
+      {
+        "name": "effort",
+        "label": "effort",
+        "default": 51.351,
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.01,
+        "description": "Alice's observed range: 0.00 to 100.00"
+      }
+    ],
+    "person": "Alice"
+  }
+}

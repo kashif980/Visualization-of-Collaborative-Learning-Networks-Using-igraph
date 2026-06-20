@@ -1,0 +1,25 @@
+body { font-family: "Trebuchet MS", "Segoe UI", sans-serif; margin: 0;
+    background: #f6f1e6; color: #232a26; }
+.page-shell { max-width: 1200px; margin: 0 auto; padding: 24px 18px 40px; }
+.hero { display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:16px;
+    border-bottom: 2px solid #d5cab4; padding-bottom: 18px; }
+.hero h1 { margin: 6px 0 4px; }
+.eyebrow { color: #6b6450; letter-spacing: 1px; font-size: 12px; text-transform: uppercase; margin: 0; }
+.hero-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+.meta-chip { background:#fff; border:1px solid #d5cab4; border-radius:18px; padding: 4px 12px;
+    font-size: 12px; color:#4a564d; }
+.panel { background:#fffaf0; border:1px solid #d5cab4; border-radius: 12px; padding: 18px 20px;
+    margin-top: 20px; box-shadow: 0 2px 6px rgba(50,42,30,0.06); }
+.panel-heading h2 { margin: 0 0 4px; }
+.manual-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 12px; }
+@media (max-width: 720px) { .manual-layout { grid-template-columns: 1fr; } }
+.input-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.input-field { display: flex; flex-direction: column; }
+.input-field input { padding: 6px 8px; border: 1px solid #c2b89e; border-radius: 6px; background: #fff; }
+.input-field small { color: #6b6450; font-size: 11px; }
+button { background: #0d7a5f; color: #fff; border: 0; padding: 8px 16px; border-radius: 6px; cursor: pointer; }
+button.secondary { background: #c2b89e; color: #232a26; margin-left: 8px; }
+.result-card { background: #fff; border: 1px solid #d5cab4; border-radius: 8px; padding: 12px; min-height: 100px; }
+.result-card pre { white-space: pre-wrap; word-break: break-word; font-size: 12px; margin: 0; }
+.chart.compact-chart { height: 180px; margin-top: 12px; background: #fff; border: 1px solid #e3d9c0; border-radius: 8px; }
+.status-panel p { color: #4a564d; }
